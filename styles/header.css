@@ -11,7 +11,11 @@ header {
     height: 80%;
     width: 27%;
     align-self: flex-start;
-    margin-left: 10%;
+    margin: 5vw 0 0 10%;
+}
+
+.header__info h2 {
+    font-size: 2.5vw;
 }
 
 .header__info > div {
@@ -33,9 +37,10 @@ header {
 
 .header__description {
     font-size: 1.25vw;
+    line-height: 2.5vw;
 }
 
-.header__button--filled, .header__button--open {
+.header__button--filled, .header__button--unfilled {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,12 +62,13 @@ header {
     cursor: pointer;
 }
 
-.header__button--open {
+.header__button--unfilled {
+    margin-left: 1vw;
     color: var(--yellow);
     background-color: var(--header-color);
 }
 
-.header__button--open:hover {
+.header__button--unfilled:hover {
     cursor: pointer;
     color: var(--font-secondary-color);
 }
@@ -105,6 +111,7 @@ header nav {
 }
 
 .nav__button {
+    z-index: 1;
     border-radius: 1.5vw;
     display: flex;
     justify-content: center;
@@ -123,4 +130,26 @@ header nav {
 .nav__button:hover {
     cursor: pointer;
     background-color: var(--font-primary-color);
+}
+
+.header__whitespace {
+    width: 16.8vw;
+    height: 43.75vw;
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.header__rectangle{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header__mask{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
