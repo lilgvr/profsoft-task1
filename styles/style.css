@@ -4,11 +4,20 @@
     --header-color: #F4F9E2;
     --font-primary-color: #22356F;
     --font-secondary-color: #62D0DF;
+    --transition-time: .15s;
+    --yellow: #F9B640;
 }
 
 html, body {
     margin: 0;
     font-family: "Larsseit", sans-serif;
+    color: var(--font-primary-color);
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
 }
 
 a {
@@ -22,37 +31,9 @@ a:visited {
     color: inherit;
 }
 
-header {
-    display: flex;
-    background-color: var(--header-color);
-    height: 50vw;
-}
-
-header nav a:first-of-type {
-    color: var(--font-secondary-color);
-}
-
-header nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5vw;
-    flex-direction: row;
-}
-
-.nav__navigation {
-
-}
-
 main {
 
 }
 
 footer {
-}
-
-.reasons {
-    display: flex;
-    height: 5vw;
 }

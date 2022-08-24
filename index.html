@@ -4,40 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <title>ThriveTalk</title>
 </head>
 <body>
 
 <header>
+
     <nav>
-        <a href="/">ThriveTalk</a>
-    </nav>
-    <div class="header__info">
-        <h1></h1>
+        <a href="/" class="header__title">Thrivetalk</a>
         <div class="nav__navigation">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Blog</a>
+            <div>
+                <a href="#home" class="nav__navigation--selected">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Blog</a>
+            </div>
         </div>
+        <a class="nav__button">Contact us</a>
+    </nav>
+
+    <div class="header__info">
+        <h1>Thrivetalk</h1>
+        <h2>HELPING YOU THRIVE IN ALL AREAS OF LIFE</h2>
+
+        <p class="header__description">Our highly talented therapists can help you with a range of issues including
+            relationships, sex, PTSD,
+            depression, social anxiety, or even just caring for yourself more.</p>
+        <div>
+            <div class="header__button--filled">
+                who am i
+            </div>
+            <div class="header__button--open">
+                what do i do
+            </div>
+        </div>
+
     </div>
+
 </header>
+
 <main>
+
     <section class="home">
+        <div id="home">
+            <h2>Why Thrive?</h2>
+            <span>
+                Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the
+                right
+                therapist?
+            </span>
+            <span>
+                Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office
+                from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk. Start
+                therapy now with a licensed therapist!
+            </span>
+        </div>
+        <img src="./assets/images/home.png" alt="Home">
+    </section>
+
+    <section class="about" id="about">
+        <h2>about us</h2>
+        <p>We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a
+            mental wellness issue we’re here to help. Our highly talented therapists can help you with a range of issues
+            including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
+        </p>
+    </section>
+
+    <section class="services" id="services">
 
     </section>
-    <section class="about">
+
+    <section class="blog" id="blog">
 
     </section>
-    <section class="services">
 
-    </section>
-    <section class="blog">
-
-    </section>
 </main>
+
 <footer>
 
 </footer>
+
 </body>
 </html>
