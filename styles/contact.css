@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: var(--font-primary-color);
+    background-color: var(--primary-color);
 }
 
 .contact__content {
@@ -34,8 +34,8 @@
 }
 
 .contact__content .button--unfilled {
-    background-color: var(--font-primary-color);
-    color: var(--font-secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     margin: 0;
     justify-content: flex-start;
     transition: color var(--transition-time) linear;

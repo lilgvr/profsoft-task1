@@ -31,7 +31,7 @@ footer a, .footer__content p, .footer__content span {
 }
 
 .footer__copyright {
-    background-color: var(--font-secondary-color);
+    background-color: var(--secondary-color);
     color: #ffffff;
 }
 

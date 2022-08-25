@@ -2,8 +2,8 @@
 
 :root {
     --header-color: #F4F9E2;
-    --font-primary-color: #22356F;
-    --font-secondary-color: #62D0DF;
+    --primary-color: #22356F;
+    --secondary-color: #62D0DF;
     --transition-time: .15s;
     --yellow: #F9B640;
 }
@@ -11,7 +11,7 @@
 html, body {
     margin: 0;
     font-family: "Larsseit", sans-serif;
-    color: var(--font-primary-color);
+    color: var(--primary-color);
     font-weight: 500;
     scroll-behavior: smooth;
 }
@@ -24,7 +24,7 @@ a {
 }
 
 a:visited {
-    color: var(--font-secondary-color);
+    color: var(--secondary-color);
 }
 
 .button--filled, .button--unfilled {
@@ -45,7 +45,7 @@ a:visited {
 }
 
 .button--filled:hover {
-    background-color: var(--font-secondary-color);
+    background-color: var(--secondary-color);
     cursor: pointer;
 }
 
@@ -57,5 +57,5 @@ a:visited {
 
 .button--unfilled:hover {
     cursor: pointer;
-    color: var(--font-secondary-color);
+    color: var(--secondary-color);
 }
