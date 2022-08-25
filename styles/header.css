@@ -102,6 +102,10 @@ header nav {
     transition: background-color var(--transition-time) linear;
 }
 
+.nav__button a:visited {
+    color: #ffffff;
+}
+
 .nav__button:hover {
     cursor: pointer;
     background-color: var(--primary-color);

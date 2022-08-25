@@ -23,10 +23,6 @@ a {
     font-size: 1.25vw;
 }
 
-a:visited {
-    color: var(--secondary-color);
-}
-
 .button--filled, .button--unfilled {
     display: flex;
     justify-content: center;
