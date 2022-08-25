@@ -28,12 +28,42 @@ a {
 }
 
 a:visited {
-    color: inherit;
+    color: var(--font-secondary-color);
 }
 
 main {
 
 }
 
-footer {
+.button--filled, .button--unfilled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 2.6vw;
+    width: 7.8vw;
+    transition: background-color var(--transition-time) linear, color var(--transition-time) linear;
+}
+
+.button--filled {
+    background-color: var(--yellow);
+    color: #ffffff;
+}
+
+.button--filled:hover {
+    background-color: var(--font-secondary-color);
+    cursor: pointer;
+}
+
+.button--unfilled {
+    margin-left: 1vw;
+    color: var(--yellow);
+    background-color: var(--header-color);
+}
+
+.button--unfilled:hover {
+    cursor: pointer;
+    color: var(--font-secondary-color);
 }

@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    background-color: var(--font-secondary-color);
+    color: #ffffff;
+}
+
+.footer__copyright p {
+    margin-left: 10%;
+}
+
+footer > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}

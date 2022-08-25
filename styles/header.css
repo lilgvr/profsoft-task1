@@ -40,39 +40,6 @@ header {
     line-height: 2.5vw;
 }
 
-.header__button--filled, .header__button--unfilled {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .8vw;
-    font-weight: 700;
-    text-transform: uppercase;
-    height: 2.6vw;
-    width: 7.8vw;
-    transition: background-color var(--transition-time) linear, color var(--transition-time) linear;
-}
-
-.header__button--filled {
-    background-color: var(--yellow);
-    color: #ffffff;
-}
-
-.header__button--filled:hover {
-    background-color: var(--font-secondary-color);
-    cursor: pointer;
-}
-
-.header__button--unfilled {
-    margin-left: 1vw;
-    color: var(--yellow);
-    background-color: var(--header-color);
-}
-
-.header__button--unfilled:hover {
-    cursor: pointer;
-    color: var(--font-secondary-color);
-}
-
 header nav {
     width: 80%;
     display: flex;
@@ -118,7 +85,7 @@ header nav {
 }
 
 .nav__button {
-    --height: 2.6vw;
+    --height: 2vw;
     z-index: 1;
     border-radius: var(--height);
     display: flex;
