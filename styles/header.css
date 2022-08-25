@@ -55,6 +55,11 @@ header nav {
     justify-content: center;
 }
 
+.nav__navigation--selected {
+    padding: 0 .5vw .9vw .5vw;
+    border-bottom: .1vw solid var(--font-primary-color);
+}
+
 .nav__navigation a {
     font-weight: 500;
     font-size: 1vw;
@@ -71,7 +76,7 @@ header nav {
 .nav__navigation > div > div {
     padding: 0 .5vw 1vw .5vw;
     text-align: center;
-    width: 15%;
+    width: 20%;
 }
 
 .nav__navigation > div > div:hover {

@@ -8,7 +8,7 @@
 }
 
 .services span {
-    font-size: 1.6vw;
+    font-size: 2vw;
     font-weight: 700;
 }
 
@@ -50,7 +50,11 @@
 .services__top span, .services__middle span {
     align-self: flex-start;
     margin: 10% 0 0 15%;
-    width: 50%;
+    width: 60%;
+}
+
+.services__middle span{
+    width: 30%;
 }
 
 .services__top span::before, .services__middle span::before {
@@ -98,7 +102,6 @@
 }
 
 .services__middle > div {
-    /*width: 100%;*/
     height: 33.3vw;
 }
 
