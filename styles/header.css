@@ -88,20 +88,11 @@ header nav {
     justify-content: center;
 }
 
-.nav__navigation--selected {
-    font-weight: 700;
-    border-bottom: 2px solid var(--font-primary-color);
-}
-
 .nav__navigation a {
     font-weight: 500;
     font-size: 1vw;
     color: var(--font-primary-color);
     transition: font-weight var(--transition-time) linear;
-}
-
-.nav__navigation a:hover {
-    font-weight: 700;
 }
 
 .nav__navigation > div {
@@ -110,9 +101,26 @@ header nav {
     justify-content: space-around;
 }
 
+.nav__navigation > div > div {
+    padding: 0 .5vw 1vw .5vw;
+    text-align: center;
+    width: 15%;
+}
+
+.nav__navigation > div > div:hover {
+    cursor: pointer;
+    padding: 0 .5vw .9vw .5vw;
+    border-bottom: .1vw solid var(--font-primary-color);
+}
+
+.nav__navigation > div > div:hover a {
+    font-weight: 700;
+}
+
 .nav__button {
+    --height: 2.6vw;
     z-index: 1;
-    border-radius: 1.5vw;
+    border-radius: var(--height);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,8 +128,8 @@ header nav {
     font-size: 1vw;
     text-transform: uppercase;
     padding: .5vw 1vw;
-    width: 7vw;
-    height: 1.5vw;
+    width: 7.8vw;
+    height: var(--height);
     background-color: var(--font-secondary-color);
     color: #ffffff;
     transition: background-color var(--transition-time) linear;
@@ -142,13 +150,13 @@ header nav {
     background-color: #ffffff;
 }
 
-.header__rectangle{
+.header__rectangle {
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.header__mask{
+.header__mask {
     position: absolute;
     right: 0;
     top: 0;

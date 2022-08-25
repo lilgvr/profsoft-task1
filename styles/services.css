@@ -1,0 +1,130 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    color: #ffffff;
+}
+
+.services span {
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.services__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3.6vw;
+    margin-top: 2vw;
+}
+
+.services__title h2 {
+    font-weight: 500;
+    font-size: .8vw;
+    color: #22356F;
+    opacity: 50%;
+}
+
+.services__top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 25vw;
+    width: 100%;
+}
+
+.services__top > div, .services__middle > div, .services__bottom > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__top > div:nth-child(1) {
+    background-color: #FFE2DE;
+}
+
+.services__top > div:nth-child(2) {
+    background-color: #C4E769;
+}
+
+.services__top > div:nth-child(3) {
+    background-color: #62D0DF;
+}
+
+.services__top > div:nth-child(4) {
+    background-color: #0052C1;
+}
+
+.services__middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 66.6vw;
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.services__middle > div {
+    width: 33.3vw;
+    height: 33.3vw;
+}
+
+.services__middle > div:nth-child(1) {
+    background-color: #22356F;
+}
+
+.services__middle > div:nth-child(2) {
+    background-color: #0052C1;
+}
+
+.services__middle > div:nth-child(3) {
+    background-image: url("../assets/images/nutrition.png");
+    background-size: cover;
+}
+
+.services__middle > div:nth-child(4) {
+    background-color: #62D0DF;
+}
+
+.services__middle > div:nth-child(5) {
+    background-color: #DEE1FF;
+}
+
+.services__middle > div:nth-child(6) {
+    background-color: #8F00FF;
+}
+
+.services__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 33.3vw;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.services__bottom > div {
+    height: 16.65vw;
+    width: 33.3vw;
+}
+
+.services__bottom > div > div{
+    width: 50%;
+}
+
+.services__bottom p {
+    color: #22356F;
+}
+
+.services__bottom p:first-of-type {
+    font-size: 1.5vw;
+    opacity: 1;
+}
+
+.services__bottom p:last-of-type {
+    font-size: .8vw;
+    opacity: 50%;
+    line-height: 1.6vw;
+}

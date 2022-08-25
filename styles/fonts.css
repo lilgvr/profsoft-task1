@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Larsseit';
     src: local('Larsseit Regular'), local('Larsseit-Regular'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Regular/Larsseit.woff2') format('woff2'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Regular/Larsseit.woff') format('woff'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Regular/Larsseit.ttf') format('truetype');
+    url('../assets/fonts/Larsseit/Regular/Larsseit.woff2') format('woff2'),
+    url('../assets/fonts/Larsseit/Regular/Larsseit.woff') format('woff'),
+    url('../assets/fonts/Larsseit/Regular/Larsseit.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -11,9 +11,9 @@
 @font-face {
     font-family: 'Larsseit';
     src: local('Larsseit Medium'), local('Larsseit-Medium'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Medium/Larsseit-Medium.woff2') format('woff2'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Medium/Larsseit-Medium.woff') format('woff'),
-    url('WebstormProjects/profsoft/task1/assets/fonts/Larsseit/Medium/Larsseit-Medium.ttf') format('truetype');
+    url('../assets/fonts/Larsseit/Medium/Larsseit-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Larsseit/Medium/Larsseit-Medium.woff') format('woff'),
+    url('../assets/fonts/Larsseit/Medium/Larsseit-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
