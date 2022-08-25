@@ -3,33 +3,37 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 100%;
 }
 
 .blog__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
     height: 100%;
     width: 50%;
+    margin-right: 15%;
 }
 
 .blog__content h2 {
     font-weight: 500;
     font-size: .8vw;
     text-transform: uppercase;
-}
-
-.blog__content > span > span {
-    color: var(--font-secondary-color);
-    font-size: 1.8vw;
+    margin-bottom: 15vw;
 }
 
 .blog__content > span {
     color: var(--font-primary-color);
     font-size: 1.8vw;
-    width: 75%;
+    font-weight: 700;
+    width: 70%;
+    line-height: 3vw;
+    margin-bottom: 5vw;
+}
+
+.blog__content > span > span {
+    color: var(--font-secondary-color);
+    font-size: 1.8vw;
 }
 
 .blog__content .button--unfilled {

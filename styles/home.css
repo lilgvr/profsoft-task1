@@ -26,3 +26,7 @@
 .home span:first-of-type {
     font-weight: 600;
 }
+
+.home span:last-of-type{
+    font-weight: 500;
+}
