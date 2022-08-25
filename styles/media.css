@@ -1,0 +1,17 @@
+@media screen and (max-width: 1440px) {
+    .header__mask {
+        height: 70%;
+    }
+
+    .header__rectangle {
+        height: 70%;
+    }
+
+    .blog__content {
+        margin-right: 7%;
+    }
+
+    .footer__content > div{
+        width: 25%;
+    }
+}
