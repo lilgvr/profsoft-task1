@@ -57,34 +57,26 @@ header nav {
 
 .nav__navigation a {
     display: block;
-    width: 100%;
-    height: 100%;
     font-weight: 500;
     font-size: 1vw;
     color: var(--primary-color);
     transition: font-weight var(--transition-time) linear;
+    padding: 0 .5vw 1vw .5vw;
+    text-align: center;
+    width: 20%;
+}
+
+.nav__navigation a:hover {
+    cursor: pointer;
+    padding: 0 .5vw .9vw .5vw;
+    border-bottom: .1vw solid var(--primary-color);
+    font-weight: 700;
 }
 
 .nav__navigation > div {
     width: 50%;
     display: flex;
     justify-content: space-around;
-}
-
-.nav__navigation > div > div {
-    padding: 0 .5vw 1vw .5vw;
-    text-align: center;
-    width: 20%;
-}
-
-.nav__navigation > div > div:hover {
-    cursor: pointer;
-    padding: 0 .5vw .9vw .5vw;
-    border-bottom: .1vw solid var(--primary-color);
-}
-
-.nav__navigation > div > div:hover a {
-    font-weight: 700;
 }
 
 .nav__button {
