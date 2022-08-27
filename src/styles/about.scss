@@ -1,0 +1,40 @@
+.about {
+	display: flex;
+	height: 19vw;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+
+	& > div:first-of-type {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		width: 25%;
+		height: 50%;
+	}
+
+	& > div:last-of-type {
+		width: 75%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	h2 {
+		text-transform: uppercase;
+		font-size: .8vw;
+		justify-self: flex-start;
+		margin-right: 25%;
+	}
+
+	p {
+		align-self: flex-end;
+		font-size: 1.25vw;
+		line-height: 2vw;
+		width: 40%;
+		margin-right: 30%;
+		font-weight: 600;
+	}
+
+}

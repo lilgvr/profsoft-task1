@@ -1,0 +1,46 @@
+@use "src/styles/variables" as v;
+
+.blog {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-direction: column;
+		height: 100%;
+		width: 50%;
+		justify-self: center;
+		margin-right: 15%;
+
+		h2 {
+			font-weight: 500;
+			font-size: .8vw;
+			text-transform: uppercase;
+			margin-bottom: 15vw;
+		}
+
+		& > span {
+			color: v.$primary-color;
+			font-size: 1.8vw;
+			font-weight: 700;
+			width: 70%;
+			line-height: 3vw;
+			margin-bottom: 5vw;
+
+			& > span {
+				color: v.$secondary-color;
+				font-size: 1.8vw;
+			}
+		}
+
+		.button--unfilled {
+			background-color: #ffffff;
+			margin: 0;
+			justify-content: flex-start;
+		}
+	}
+}

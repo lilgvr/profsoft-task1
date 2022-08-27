@@ -1,0 +1,55 @@
+@use "src/styles/variables" as v;
+
+footer {
+	display: flex;
+	flex-direction: column;
+	color: #22356F;
+
+	address {
+		font-style: normal;
+	}
+
+	h3 {
+		text-transform: uppercase;
+	}
+
+	.#{&}__content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+		a:last-of-type {
+			color: #006dff;
+			opacity: 1;
+		}
+
+		& > div {
+			display: flex;
+			flex-direction: column;
+			width: 20%;
+		}
+
+		& > div:first-of-type {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: row;
+		}
+	}
+
+	a, #{&}__content p, .#{&}__content span {
+		opacity: 50%;
+		font-size: 1vw;
+		line-height: 2vw;
+		font-weight: 500;
+	}
+
+	.#{&}__copyright {
+		background-color: v.$secondary-color;
+		color: #ffffff;
+
+		p {
+			margin-left: 10%;
+		}
+	}
+}

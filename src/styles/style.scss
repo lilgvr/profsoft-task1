@@ -1,0 +1,49 @@
+@use "src/styles/variables" as v;
+
+html, body {
+	margin: 0;
+	font-family: "Larsseit", sans-serif;
+	color: v.$primary-color;
+	font-weight: 500;
+	scroll-behavior: smooth;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.25vw;
+}
+
+.button--filled, .button--unfilled {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .8vw;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 2.6vw;
+	width: 7.8vw;
+	transition: background-color v.$transition-time linear, color v.$transition-time linear;
+}
+
+.button--filled {
+	background-color: v.$yellow;
+	color: #ffffff;
+
+	&:hover {
+		background-color: v.$secondary-color;
+		cursor: pointer;
+	}
+}
+
+.button--unfilled {
+	margin-left: 1vw;
+	color: v.$yellow;
+	background-color: v.$header-color;
+
+	&:hover {
+		cursor: pointer;
+		color: v.$secondary-color;
+	}
+}
