@@ -41,72 +41,6 @@ header {
 		line-height: 2.5vw;
 	}
 
-	nav {
-		width: 80%;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		height: 5vw;
-		flex-direction: row;
-
-		.#{&}__navigation {
-			width: 50%;
-			display: flex;
-			justify-content: center;
-
-			a {
-				display: block;
-				font-weight: 500;
-				font-size: 1vw;
-				color: v.$primary-color;
-				transition: font-weight v.$transition-time linear;
-				padding: 0 .5vw 1vw .5vw;
-				text-align: center;
-				width: 20%;
-
-				&:hover {
-					cursor: pointer;
-					padding: 0 .5vw .9vw .5vw;
-					border-bottom: .1vw solid v.$primary-color;
-					font-weight: 700;
-				}
-			}
-
-			& > div {
-				width: 50%;
-				display: flex;
-				justify-content: space-around;
-			}
-		}
-
-		.#{&}__button {
-			$height: 2vw;
-			z-index: 1;
-			border-radius: $height;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-weight: 700;
-			font-size: 1vw;
-			text-transform: uppercase;
-			padding: .5vw 1vw;
-			width: 7.8vw;
-			height: $height;
-			background-color: v.$secondary-color;
-			color: #ffffff;
-			transition: background-color v.$transition-time linear;
-
-			a:visited {
-				color: #ffffff;
-			}
-
-			&:hover {
-				cursor: pointer;
-				background-color: v.$primary-color;
-			}
-		}
-	}
-
 	.#{&}__whitespace {
 		width: 16.8vw;
 		height: 43.75vw;
@@ -127,5 +61,71 @@ header {
 		position: absolute;
 		right: 0;
 		top: 0;
+	}
+}
+
+nav {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5vw;
+	flex-direction: row;
+
+	.#{&}__navigation {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+
+		a {
+			display: block;
+			font-weight: 500;
+			font-size: 1vw;
+			color: v.$primary-color;
+			transition: font-weight v.$transition-time linear;
+			padding: 0 .5vw 1vw .5vw;
+			text-align: center;
+			width: 20%;
+
+			&:hover {
+				cursor: pointer;
+				padding: 0 .5vw .9vw .5vw;
+				border-bottom: .1vw solid v.$primary-color;
+				font-weight: 700;
+			}
+		}
+
+		& > div {
+			width: 50%;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+
+	.#{&}__button {
+		$height: 2vw;
+		z-index: 1;
+		border-radius: $height;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 700;
+		font-size: 1vw;
+		text-transform: uppercase;
+		padding: .5vw 1vw;
+		width: 7.8vw;
+		height: $height;
+		background-color: v.$secondary-color;
+		color: #ffffff;
+		transition: background-color v.$transition-time linear;
+
+		a:visited {
+			color: #ffffff;
+		}
+
+		&:hover {
+			cursor: pointer;
+			background-color: v.$primary-color;
+		}
 	}
 }
