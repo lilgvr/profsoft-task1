@@ -5,10 +5,6 @@ footer {
 	flex-direction: column;
 	color: #22356F;
 
-	address {
-		font-style: normal;
-	}
-
 	h3 {
 		text-transform: uppercase;
 	}
@@ -30,14 +26,18 @@ footer {
 			opacity: 1;
 		}
 
-		& > div {
-			display: flex;
-			flex-direction: column;
-			width: 20%;
+		address {
+			font-style: normal;
 		}
 	}
 
-	a, #{&}__content p, .#{&}__content span {
+	.#{&}__content > div {
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+	}
+
+	a, .#{&}__content p, .#{&}__content span {
 		opacity: 50%;
 		font-size: 1vw;
 		line-height: 2vw;
